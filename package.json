@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Destination Manager Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melrpm/Destination-Manager-Server.git"
+  },
+  "author": "Melvin del Orbe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melrpm/Destination-Manager-Server/issues"
+  },
+  "homepage": "https://github.com/Melrpm/Destination-Manager-Server#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.4.0",
+    "fs": "^0.0.1-security"
+  }
+}
