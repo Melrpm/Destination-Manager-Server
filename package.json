@@ -18,9 +18,12 @@
   },
   "homepage": "https://github.com/Melrpm/Destination-Manager-Server#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-rate-limit": "^6.4.0",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.4.4",
+    "xlsx": "^0.18.5"
   }
 }
